@@ -26,6 +26,8 @@ f=1.0⋅FPS⋅[0,149]ordem do filtro
 f=ordem do filtro1.0⋅FPS⋅[0,149]​
 
 O sistema utiliza uma máscara de frequência que admite apenas valores dentro da banda passante, eliminando ruídos de iluminação e movimentação.
+
+
 📊 Resultados
 
 O sistema foi validado comparando os dados obtidos via webcam com um smartwatch simultaneamente.
