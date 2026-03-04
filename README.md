@@ -8,6 +8,7 @@ Status
 Este projeto implementa um monitor de frequência cardíaca em tempo real utilizando Fotopletismografia Remota (rPPG). Através do processamento de vídeo de uma webcam comum, o sistema detecta variações imperceptíveis na coloração da pele causadas pelo fluxo sanguíneo microvascular, extraindo o batimento cardíaco com alta precisão.
 
 Desenvolvido para a disciplina de Processamento Digital de Sinais em Tempo Discreto no Programa de Pós-Graduação em Engenharia Elétrica da UFSCar.
+
 🛠️ Tecnologias e Conceitos Aplicados
 
     Fotopletismografia (PPG): Medição de mudanças no volume sanguíneo através da luz.
@@ -32,7 +33,7 @@ O sistema foi validado comparando os dados obtidos via webcam com um smartwatch 
     Frequência Detectada: Entre 79,5 e 83,4 BPM.
     Precisão: Resultados consistentes com a literatura de engenharia biomédica para adultos em repouso.
 
-(Dica: Insira aqui um GIF do programa funcionando ou o gráfico de batimentos que você tem no PDF)
+
 💻 Como Executar
 
     Clone o repositório:
