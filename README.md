@@ -1,4 +1,4 @@
-🫀 Monitor de Frequência Cardíaca via Webcam (rPPG)
+## Monitor de Frequência Cardíaca via Webcam (rPPG)
 
 Python
 OpenCV
@@ -9,7 +9,7 @@ Este projeto implementa um monitor de frequência cardíaca em tempo real utiliz
 
 Desenvolvido para a disciplina de Processamento Digital de Sinais em Tempo Discreto no Programa de Pós-Graduação em Engenharia Elétrica da UFSCar.
 
-🛠️ Tecnologias e Conceitos Aplicados
+## Tecnologias e Conceitos Aplicados
 
     Fotopletismografia (PPG): Medição de mudanças no volume sanguíneo através da luz.
     Visão Computacional: Utilização da biblioteca OpenCV para captura e manipulação de frames.
@@ -17,7 +17,7 @@ Desenvolvido para a disciplina de Processamento Digital de Sinais em Tempo Discr
     Filtros Digitais FIR: Projeto de um filtro Passa-Banda (1Hz - 2Hz) para isolar a frequência cardíaca humana (45 - 180 BPM).
     Transformada de Fourier (FFT): Análise espectral do sinal extraído para identificação do pico de frequência correspondente ao pulso.
 
-📐 O Projeto do Filtro
+## O Projeto do Filtro
 
 Para garantir a fidelidade do sinal biomédico, aplicamos um filtro de resposta de impulso finita (FIR) com janelamento Gaussiano.
 
@@ -28,7 +28,7 @@ f=ordem do filtro1.0⋅FPS⋅[0,149]​
 O sistema utiliza uma máscara de frequência que admite apenas valores dentro da banda passante, eliminando ruídos de iluminação e movimentação.
 
 
-📊 Resultados
+## Resultados
 
 O sistema foi validado comparando os dados obtidos via webcam com um smartwatch simultaneamente.
 
@@ -36,7 +36,7 @@ O sistema foi validado comparando os dados obtidos via webcam com um smartwatch 
     Precisão: Resultados consistentes com a literatura de engenharia biomédica para adultos em repouso.
 
 
-💻 Como Executar
+## Como Executar
 
     Clone o repositório:
 
@@ -56,19 +56,19 @@ O sistema foi validado comparando os dados obtidos via webcam com um smartwatch 
     Copy
     python main.py  
 
-👥 Autores
+## Autores
 
     André L. C. S. Santos
     Thales M. Marques
     Yuri F. Dubbern
 
-📚 Referências
+## Referências
 
     McDuff, J. D. et al. (2017). Fusing Partial Camera Signal for Non-Contact Pulse Rate Variability Measurement.
     Proakis, J. G. (2007). Digital Signal Processing.
 
 
-MIT License  
+## MIT License  
   
 Copyright (c) 2026 Yuri F. Dubbern, André L. C. S. Santos, Thales M. Marques  
   
